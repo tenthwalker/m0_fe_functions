@@ -48,7 +48,7 @@ console.log(progLanguage.toLowerCase());
 // The endsWith() method is called on the bigDog variable, which stores the string object "Wolfhound"
 // The endsWith() method returns true if the data in the bigDog variable ends with the argument passed in
 // The return value in this example is true, because "Wolfhound" does end with "d"
-// The console.log() statement prints the return value of the endsWith method to the console
+// The console.log() statement prints the return value of the endsWith() method to the console
 var bigDog = "Wolfhound";
 console.log(bigDog.endsWith("d"));
 
@@ -57,3 +57,17 @@ console.log(bigDog.endsWith("d"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+// The pop() method is called on the siblings array, which stores the number objects 1, 2, and 3
+// The pop() method returns the last element from the array, and also removes it from the array
+// The return value in this example would be 3, because it is the last element in the array
+// The console.log() statement prints the return value of the pop() method to the console
+var siblings = [1, 2, 3];
+console.log(siblings.pop());
+
+// The length method is called on the dice array, which stores the string objects "d20", "d6", "d4", and "d12"
+// The length method returns the number of objects in the array
+// The return value in this example would be 4, because there are 4 string objects in the array
+// The console.log() statement prints the return value of the length method to the console
+var dice = ["d20", "d6", "d4", "d12"];
+console.log(dice.length);
