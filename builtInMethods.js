@@ -8,15 +8,20 @@
 // The return value is "hello world"
 "Hello World".toLowerCase();
 
-
 "Hello World".includes("Hello");
-
+// The includes() method is called on the string "Hello World"
+// No arguments are passed; includes() has one clear job to check if a string includes the substring "Hello"
+// The return value is true
 
 "Hello World".endsWith("Hello");
-
+// The endsWith() method is called on the string "Hello World"
+// No arguments are passed; endsWith has one clear job to check if a string ends with the substring "Hello"
+// The return value is false
 
 "Hello World".endsWith("rld");
-
+// The endsWith() method is called on the string "Hello World"
+// No arguments are passed; endsWith has one clear job to check if a string ends with the substring "rld"
+// The return value is
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
