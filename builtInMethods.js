@@ -21,7 +21,7 @@
 "Hello World".endsWith("rld");
 // The endsWith() method is called on the string "Hello World"
 // No arguments are passed; endsWith has one clear job to check if a string ends with the substring "rld"
-// The return value is
+// The return value is true
 
 
 // SECTION 2: Calling methods on variables assigned to strings.
@@ -38,6 +38,17 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// The toLowerCase() method is called on the progLanguage variable, which stores the string object "Ruby"
+// The toLowerCase() method returns the string in all lowercase characters
+// In this example, the resulting string would be "ruby"
+// The console.log() statement prints the return value of the toLowerCase method to the console 
+var progLanguage = "Ruby";
+console.log(progLanguage.toLowerCase());
+
+//
+//
+//
+//
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
