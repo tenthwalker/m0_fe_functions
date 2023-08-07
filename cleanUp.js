@@ -17,13 +17,13 @@ console.log(askForName());
 
 // EX 2:
 function addThreeNums(first, second, third) {
-var sum = first + second + third
+var sum = first + second + third;
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
-// I changed
+console.log(addThreeNums(1, 2, 3));
+console.log(addThreeNums(4, 2, 7));
+// I added console.log() to the last two lines so the return value is visible, and a semicolon after the contents of sum according to best practices.
 
 // EX 3:
 function makeFreshPesto(){
