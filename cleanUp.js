@@ -26,15 +26,16 @@ console.log(addThreeNums(4, 2, 7));
 // I added console.log() to the last two lines so the return value is visible, and a semicolon after the contents of sum according to best practices.
 
 // EX 3:
-function makeFreshPesto(){
+function makeFreshPesto() {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
-// I changed line 29 to begin with <function> instead of <func>, as I was previously being shown a syntax error message of an unexpected identifier. 
+// I changed line 29 to begin with <function> instead of <func>, as I was previously being shown a syntax error message of an unexpected identifier. I also adjusted the placement of the curly brackets slightly.
 
 //  EX 4:
 function average(num1, num2) {
