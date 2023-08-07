@@ -52,7 +52,13 @@ checkStock(0, "Cheese");
 checkStock(1, "Salsa");
 // => "Salsa - running LOW"
 
-function checkStock() {
-    return
+function checkStock(status, item) {
+    if (status <= 0) {
+        return `${item} - OUT of stock!`;
+    } else if (status > 0 && status < 4) {
+        return `${item} - running LOW`;
+    } else {
+        return `${item} is stocked`;
+    }
 }
-console.log();
+console.log(checkStock(0, "Cheese"));
