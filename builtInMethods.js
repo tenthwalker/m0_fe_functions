@@ -45,11 +45,12 @@ console.log(firstName.startsWith("J"));
 var progLanguage = "Ruby";
 console.log(progLanguage.toLowerCase());
 
-//
-//
-//
-//
-
+// The endsWith() method is called on the bigDog variable, which stores the string object "Wolfhound"
+// The endsWith() method returns true if the data in the bigDog variable ends with the argument passed in
+// The return value in this example is true, because "Wolfhound" does end with "d"
+// The console.log() statement prints the return value of the endsWith method to the console
+var bigDog = "Wolfhound";
+console.log(bigDog.endsWith("d"));
 
 // SECTION 3: Calling methods on variables assigned to arrays.
 // Declare 2 variables assigned to arrays.
