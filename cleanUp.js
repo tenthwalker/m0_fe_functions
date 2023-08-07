@@ -8,10 +8,12 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
-
-askForName()
-
+function askForName() { 
+  return "Hello, what is your name?"
+}
+console.log(askForName());
+// I changed the console.log() placement from inside the curly brackets to outside the code block, and instructed the function to return the string when called.
+// I wanted the console.log() outside of the code block so the function can be used elsewhere in a program without printing to the console each time.
 
 // EX 2:
 function addThreeNums(first, second, third) {
@@ -21,10 +23,10 @@ return sum;
 
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
-
+// I changed
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -32,13 +34,15 @@ func makeFreshPesto(){
   console.log("Season");    }
 
 makeFreshPesto();
-
+// I changed line 2 to begin with <function> instead of <func>, as I was previously being shown a syntax error message of an unexpected identifier. 
 
 //  EX 4:
 function average(num1, num2) 
   {
 var sum = num1 + num2;
     var avg = sum / 2;
-
+return sum
 return avg
   }
+  console.log(average(9, 7))
+// I changed
