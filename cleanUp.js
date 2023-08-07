@@ -34,15 +34,13 @@ function makeFreshPesto(){
   console.log("Season");    }
 
 makeFreshPesto();
-// I changed line 2 to begin with <function> instead of <func>, as I was previously being shown a syntax error message of an unexpected identifier. 
+// I changed line 29 to begin with <function> instead of <func>, as I was previously being shown a syntax error message of an unexpected identifier. 
 
 //  EX 4:
-function average(num1, num2) 
-  {
+function average(num1, num2) {
 var sum = num1 + num2;
     var avg = sum / 2;
-return sum
-return avg
+return avg;
   }
   console.log(average(9, 7))
-// I changed
+// I added a semicolon according to best practices, and added console.log() and two numbers so I could test the code in my terminal.
